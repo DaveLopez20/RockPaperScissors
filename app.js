@@ -57,6 +57,7 @@ const updateScore = () =>{
     const computerScore = document.querySelector('.computer-score p');
     playerScore.textContent = pScore;
     computerScore.textContent = cScore;
+    
 };
 
 const compareHands = (playerChoice, computerChoice) =>{
